@@ -8,6 +8,10 @@
     "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "plugins": [],
+    "schemes": [
+      "crackthemythapp"
+    ],
     "splash": {
       "image": "./assets/logo.png",
       "resizeMode": "cover",
@@ -15,7 +19,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.qmjdolores.CrackTheMythApp",
+      "bundleIdentifier": "com.qmjsdolores.CrackTheMythApp",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -27,7 +31,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.qmjdolores.CrackTheMythApp"
+      "package": "com.qmjsdolores.CrackTheMythApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
