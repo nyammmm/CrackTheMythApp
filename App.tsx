@@ -1170,7 +1170,7 @@ const AuthScreen = ({ onLogin, backendUrl, setBackendUrl }: { onLogin: (token: s
                 <TextInput
                   value={tmpServer}
                   onChangeText={setTmpServer}
-                  placeholder={'http://192.168.254.100:4000'}
+                  placeholder={'https://crackthemythapp.onrender.com'}
                   style={{ width: '100%', padding: 12, borderRadius: 8, borderWidth: 1, borderColor: '#E0E0E0', marginBottom: 12, color: '#333', fontSize: 14 }}
                   placeholderTextColor={'#999'}
                   autoCapitalize='none'

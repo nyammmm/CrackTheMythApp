@@ -34,7 +34,8 @@
     "extra": {
       "eas": {
         "projectId": "39867413-0343-4071-b43a-5c9383a07ebd"
-      }
+      },
+      "backendUrl": "https://crackthemythapp.onrender.com"
     }
   }
 }
