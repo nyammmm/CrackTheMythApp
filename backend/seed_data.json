@@ -1,0 +1,20 @@
+{
+  "quizzes": [
+    {
+      "id": "QZ1",
+      "title": "introduction to half-life",
+      "levels": [
+        {
+          "id": "QZ1-E",
+          "title": "Easy",
+          "questions": [
+            { "q": "When was the term \"half-life\" introduced?", "a": "1907", "options": ["1907", "1950"], "explanation": "Ernest Rutherford introduced the term in 1907." }
+          ]
+        }
+      ]
+    }
+  ],
+  "books": [
+    { "id": "B1", "title": "Introduction to Half-Life", "content": "Radioactive materials decay over time... (seed)", "reference": "Argonne" }
+  ]
+}

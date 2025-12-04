@@ -1,0 +1,1489 @@
+{
+  "quizzes": [
+    {
+      "id": "QZ1",
+      "title": "introduction to half-life",
+      "levels": [
+        {
+          "id": "QZ1-E",
+          "title": "Easy",
+          "questions": [
+            {
+              "q": "When was the term \"half-life\" introduced?",
+              "a": "1907",
+              "options": [
+                "1907",
+                "1950"
+              ],
+              "explanation": "Ernest Rutherford introduced the term in 1907."
+            },
+            {
+              "q": "The time it takes for half of a quantity to decay is called the...",
+              "a": "Half-life",
+              "options": [
+                "Half-life",
+                "Quarter-life"
+              ],
+              "explanation": "Half-life is the time required for half of a substance to decay."
+            },
+            {
+              "q": "True or False: Exactly half of the substance decays after one half-life.",
+              "a": "False",
+              "options": [
+                "True",
+                "False"
+              ],
+              "explanation": "Decay is probabilistic; exact halving is an idealized expectation for large samples."
+            },
+            {
+              "q": "Who coined the term \"half-life\"?",
+              "a": "Ernest Rutherford",
+              "options": [
+                "Ernest Rutherford",
+                "Marie Curie"
+              ],
+              "explanation": "Ernest Rutherford first used the term to describe decay rates."
+            },
+            {
+              "q": "In N(t) = N0 · e^{-lambda t}, what does lambda represent?",
+              "a": "Decay constant",
+              "options": [
+                "Initial quantity",
+                "Decay constant"
+              ],
+              "explanation": "Lambda is the decay constant, which sets the rate of exponential decay."
+            }
+          ]
+        },
+        {
+          "id": "QZ1-M",
+          "title": "Medium",
+          "questions": [
+            {
+              "q": "Which mathematical form describes decay proportional to the current value?",
+              "a": "Exponential decay",
+              "options": [
+                "Linear decay",
+                "Exponential decay",
+                "Logarithmic decay",
+                "No decay"
+              ],
+              "explanation": "Exponential decay has a rate proportional to the current amount."
+            },
+            {
+              "q": "What is biological half-life?",
+              "a": "Time to eliminate half the substance biologically",
+              "options": [
+                "Time to eliminate half the substance biologically",
+                "Time to chemically alter half",
+                "Time to heat by half",
+                "None of the above"
+              ],
+              "explanation": "Biological half-life refers to elimination via biological processes."
+            },
+            {
+              "q": "After two half-lives, what fraction remains?",
+              "a": "1/4",
+              "options": [
+                "1/2",
+                "1/4",
+                "1/8",
+                "3/4"
+              ],
+              "explanation": "(1/2)^2 = 1/4."
+            },
+            {
+              "q": "A 75 g sample, t1/2 = 5730 years: how much after 11460 years?",
+              "a": "18.75 g",
+              "options": [
+                "18.75 g",
+                "37.5 g",
+                "75 g",
+                "9.375 g"
+              ],
+              "explanation": "11460 = 2 half-lives, so 75 * (1/2)^2 = 18.75 g."
+            },
+            {
+              "q": "What fraction remains after three half-lives?",
+              "a": "1/8",
+              "options": [
+                "1/2",
+                "1/4",
+                "1/8",
+                "1/16"
+              ],
+              "explanation": "(1/2)^3 = 1/8."
+            },
+            {
+              "q": "Which describes a first-order reaction?",
+              "a": "Rate proportional to concentration",
+              "options": [
+                "Rate independent",
+                "Rate proportional to concentration",
+                "Rate proportional to square",
+                "Rate increases"
+              ],
+              "explanation": "First-order reactions have rate ∝ concentration."
+            },
+            {
+              "q": "What is an e-folding time?",
+              "a": "Time to decrease by factor e",
+              "options": [
+                "Time to double",
+                "Time to decrease by factor e",
+                "Time to halve",
+                "No relation"
+              ],
+              "explanation": "E-folding time is when amount falls to 1/e of initial."
+            },
+            {
+              "q": "Why are half-lives useful?",
+              "a": "Predict average behaviour of many atoms",
+              "options": [
+                "Predict exact atom behaviour",
+                "Predict average behaviour of many atoms",
+                "Measure temperature",
+                "Calculate mass"
+              ],
+              "explanation": "Half-lives predict average decay behaviour for large samples."
+            },
+            {
+              "q": "Is radioactive decay deterministic for single atoms?",
+              "a": "No, it is probabilistic",
+              "options": [
+                "Yes",
+                "No, it is probabilistic"
+              ],
+              "explanation": "Single-atom decay is random; statistics apply to ensembles."
+            },
+            {
+              "q": "Which unit approximates ln(2)?",
+              "a": "0.693",
+              "options": [
+                "0.5",
+                "0.693",
+                "1.0",
+                "2.0"
+              ],
+              "explanation": "ln(2) ≈ 0.693, used in t1/2 = ln(2)/lambda."
+            }
+          ]
+        },
+        {
+          "id": "QZ1-H",
+          "title": "Hard",
+          "questions": [
+            {
+              "q": "How many half-lives have passed after 12000 years if t1/2 = 5730 years?",
+              "a": "About 2.1",
+              "options": [
+                "About 2.1",
+                "About 1.5",
+                "About 3.0",
+                "About 4.0"
+              ],
+              "explanation": "12000 / 5730 ≈ 2.094, so about 2.1 half-lives."
+            },
+            {
+              "q": "What fraction remains after 5 half-lives?",
+              "a": "1/32",
+              "options": [
+                "1/16",
+                "1/32",
+                "1/8",
+                "1/64"
+              ],
+              "explanation": "(1/2)^5 = 1/32."
+            },
+            {
+              "q": "Which radiation is high-energy electromagnetic radiation from the nucleus?",
+              "a": "Gamma radiation",
+              "options": [
+                "Alpha particle",
+                "Beta particle",
+                "Gamma radiation",
+                "Neutron"
+              ],
+              "explanation": "Gamma rays are high-energy photons emitted by nuclei."
+            },
+            {
+              "q": "What is the relation between half-life and decay constant lambda?",
+              "a": "t1/2 = ln(2)/lambda",
+              "options": [
+                "t1/2 = ln(2)/lambda",
+                "t1/2 = lambda/ln(2)",
+                "t1/2 = 2*lambda",
+                "No relation"
+              ],
+              "explanation": "The standard relation is t1/2 = ln(2) / lambda."
+            },
+            {
+              "q": "If 75% is lost in 16 days, what is the half-life?",
+              "a": "8 days",
+              "options": [
+                "8 days",
+                "4 days",
+                "16 days",
+                "2 days"
+              ],
+              "explanation": "75% lost means 25% remains: that is two half-lives, so 16/2 = 8 days."
+            },
+            {
+              "q": "What does a decay series describe?",
+              "a": "Sequence of decays to a stable isotope",
+              "options": [
+                "A single decay step",
+                "Sequence of decays to a stable isotope",
+                "Fusion process",
+                "Chemical reaction"
+              ],
+              "explanation": "A decay series is a chain of decays leading to a stable nucleus."
+            },
+            {
+              "q": "What is the numerical value of ln(2)?",
+              "a": "0.693",
+              "options": [
+                "0.693",
+                "0.5",
+                "1.0",
+                "2.0"
+              ],
+              "explanation": "ln(2) ≈ 0.693."
+            },
+            {
+              "q": "Which factor least affects biological half-life?",
+              "a": "Initial quantity",
+              "options": [
+                "Age",
+                "Metabolism",
+                "Organ function",
+                "Initial quantity"
+              ],
+              "explanation": "Biological half-life depends on biological processes, not the initial dose in most cases."
+            },
+            {
+              "q": "What causes the majority of heat in a reactor after fission?",
+              "a": "Kinetic energy of fragments converted to heat",
+              "options": [
+                "Gamma rays",
+                "Kinetic energy of fragments converted to heat",
+                "Neutron emission",
+                "Chemical reactions"
+              ],
+              "explanation": "Fission fragments deposit kinetic energy as heat."
+            },
+            {
+              "q": "What term describes a self-sustaining chain reaction with k = 1?",
+              "a": "Critical",
+              "options": [
+                "Critical",
+                "Subcritical",
+                "Supercritical",
+                "Transient"
+              ],
+              "explanation": "Critical means steady chain reaction with multiplication factor k = 1."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QZ2",
+      "title": "understanding nuclear fission",
+      "levels": [
+        {
+          "id": "QZ2-E",
+          "title": "Easy",
+          "questions": [
+            {
+              "q": "True or False: Fission requires the nucleus to exceed a critical energy threshold.",
+              "a": "True",
+              "options": [
+                "True",
+                "False"
+              ],
+              "explanation": "Fission occurs when the nucleus reaches a threshold energy that allows it to split."
+            },
+            {
+              "q": "True or False: Two or more neutrons are typically released during fission.",
+              "a": "True",
+              "options": [
+                "True",
+                "False"
+              ],
+              "explanation": "A fission event commonly emits two or more neutrons, which may continue the chain reaction."
+            },
+            {
+              "q": "Who discovered nuclear fission?",
+              "a": "Otto Hahn and Fritz Strassmann",
+              "options": [
+                "Otto Hahn and Fritz Strassmann",
+                "Enrico Fermi"
+              ],
+              "explanation": "Otto Hahn and Fritz Strassmann discovered nuclear fission in 1938."
+            },
+            {
+              "q": "What term describes a heavy nucleus splitting into smaller nuclei?",
+              "a": "Nuclear fission",
+              "options": [
+                "Nuclear fission",
+                "Nuclear fusion"
+              ],
+              "explanation": "Fission is the process of a heavy nucleus splitting into two or more lighter nuclei."
+            },
+            {
+              "q": "What term describes two nuclei combining into one?",
+              "a": "Nuclear fusion",
+              "options": [
+                "Nuclear fusion",
+                "Nuclear fission"
+              ],
+              "explanation": "Fusion combines light nuclei into a heavier nucleus."
+            }
+          ]
+        },
+        {
+          "id": "QZ2-M",
+          "title": "Medium",
+          "questions": [
+            {
+              "q": "Which type of fission is typically used in reactors because it is controllable?",
+              "a": "Neutron-induced",
+              "options": [
+                "Spontaneous",
+                "Neutron-induced",
+                "Alpha-induced",
+                "Photon-induced"
+              ],
+              "explanation": "Neutron-induced fission allows control through neutron economy and moderation."
+            },
+            {
+              "q": "What can neutrons emitted during fission trigger?",
+              "a": "A chain reaction",
+              "options": [
+                "Fusion",
+                "Beta decay",
+                "A chain reaction",
+                "Gamma emission"
+              ],
+              "explanation": "Emitted neutrons can induce further fission, creating a chain reaction."
+            },
+            {
+              "q": "Which isotope commonly supports a self-sustaining chain reaction?",
+              "a": "U-235",
+              "options": [
+                "U-238",
+                "U-235",
+                "Pu-238",
+                "C-14"
+              ],
+              "explanation": "U-235 is a common fissile isotope used in reactors."
+            },
+            {
+              "q": "Approximately how much energy is released per U-235 fission?",
+              "a": "About 200 MeV",
+              "options": [
+                "About 5 MeV",
+                "About 200 MeV",
+                "1 GW",
+                "1 kJ"
+              ],
+              "explanation": "A single U-235 fission releases on the order of 200 MeV of energy."
+            },
+            {
+              "q": "What does MWd stand for in reactor energy terms?",
+              "a": "Megawatt-day",
+              "options": [
+                "Megawatt-day",
+                "Megawatt-degree",
+                "Milliwatt-day",
+                "Mega-watt density"
+              ],
+              "explanation": "MWd means megawatt-day, an energy/time measure used in reactor fuel accounting."
+            },
+            {
+              "q": "Why is a moderator used in many reactors?",
+              "a": "To slow down neutrons",
+              "options": [
+                "To absorb neutrons",
+                "To slow down neutrons",
+                "To increase temperature",
+                "To produce gamma rays"
+              ],
+              "explanation": "Moderators slow fast neutrons to thermal energies where fission is more likely for U-235."
+            },
+            {
+              "q": "Roughly how many fissions per second produce 1 watt of power?",
+              "a": "About 3.1 × 10^10",
+              "options": [
+                "10^6",
+                "3.1 × 10^10",
+                "2.5 × 10^21",
+                "439"
+              ],
+              "explanation": "Approximately 3.1 × 10^10 fissions per second correspond to ~1 watt."
+            },
+            {
+              "q": "What does it mean if a chain reaction is critical?",
+              "a": "The reaction is self-sustaining (k = 1)",
+              "options": [
+                "k < 1",
+                "k = 1",
+                "k > 1",
+                "k = 0"
+              ],
+              "explanation": "Critical means each generation of neutrons sustains the next: k = 1."
+            },
+            {
+              "q": "Which neutron is most effective at causing fission in U-235?",
+              "a": "Thermal neutron",
+              "options": [
+                "Fast neutron",
+                "Thermal neutron",
+                "Delayed neutron",
+                "Prompt neutron"
+              ],
+              "explanation": "Thermal neutrons are more likely to induce fission in U-235."
+            },
+            {
+              "q": "What are fission fragments typically like?",
+              "a": "Highly radioactive",
+              "options": [
+                "Stable",
+                "Highly radioactive",
+                "Only gamma emitters",
+                "Only alpha emitters"
+              ],
+              "explanation": "Fission fragments are neutron-rich and typically radioactive."
+            }
+          ]
+        },
+        {
+          "id": "QZ2-H",
+          "title": "Hard",
+          "questions": [
+            {
+              "q": "Why is spontaneous fission not suitable for reactor power generation?",
+              "a": "It is too rare and uncontrolled",
+              "options": [
+                "It is too rare and uncontrolled",
+                "It releases too much energy",
+                "It produces no neutrons",
+                "It requires fusion"
+              ],
+              "explanation": "Spontaneous fission rates are low and unpredictable for controlled power."
+            },
+            {
+              "q": "Which isotope listed is not typically fissile for sustaining a chain reaction?",
+              "a": "Pu-240",
+              "options": [
+                "U-233",
+                "U-235",
+                "Pu-239",
+                "Pu-240"
+              ],
+              "explanation": "Pu-240 is not a primary fissile isotope for sustaining a chain reaction."
+            },
+            {
+              "q": "Why does fission release energy?",
+              "a": "Products have higher binding energy per nucleon",
+              "options": [
+                "Products have lower binding energy",
+                "Products have higher binding energy per nucleon",
+                "Mass is created",
+                "Neutrons disappear"
+              ],
+              "explanation": "Energy is released because products are more tightly bound; mass difference becomes energy."
+            },
+            {
+              "q": "What happens to the kinetic energy of fission fragments?",
+              "a": "Converted to heat in the reactor",
+              "options": [
+                "Emitted as light",
+                "Converted to heat in the reactor",
+                "Escapes as neutrinos",
+                "Stored as potential energy"
+              ],
+              "explanation": "Fragment kinetic energy is deposited as heat in the fuel and coolant."
+            },
+            {
+              "q": "What role does a moderator play?",
+              "a": "It slows neutrons to thermal energies",
+              "options": [
+                "It speeds neutrons",
+                "It slows neutrons",
+                "It absorbs heat",
+                "It moderates temperature"
+              ],
+              "explanation": "Moderators reduce neutron energy to increase fission probability in fissile materials."
+            },
+            {
+              "q": "Approximately how many atoms are in one gram of fissile material (order of magnitude)?",
+              "a": "About 10^21",
+              "options": [
+                "10^15",
+                "10^21",
+                "10^23",
+                "10^9"
+              ],
+              "explanation": "One gram contains roughly 10^21 atoms, depending on the isotope."
+            },
+            {
+              "q": "What does MWd measure?",
+              "a": "Energy produced per unit mass/time (megawatt-day)",
+              "options": [
+                "Power",
+                "Energy per day",
+                "Energy (megawatt-day)",
+                "Temperature"
+              ],
+              "explanation": "MWd is a unit for energy produced over a day at megawatt power."
+            },
+            {
+              "q": "What is the neutron multiplication factor k when the reaction is supercritical?",
+              "a": "k > 1",
+              "options": [
+                "k < 1",
+                "k = 1",
+                "k > 1",
+                "k = 0"
+              ],
+              "explanation": "Supercritical means the chain reaction grows: k > 1."
+            },
+            {
+              "q": "What does criticality mean in reactor physics?",
+              "a": "Neutron production equals losses (k = 1)",
+              "options": [
+                "Neutron production increases",
+                "Neutron production equals losses",
+                "Neutron production stops",
+                "Neutron production oscillates"
+              ],
+              "explanation": "Criticality means a steady-state chain reaction where k = 1."
+            },
+            {
+              "q": "Why are fission fragments radioactive?",
+              "a": "They are neutron-rich and unstable",
+              "options": [
+                "They are proton-rich",
+                "They are neutron-rich and unstable",
+                "They are stable",
+                "They are cold"
+              ],
+              "explanation": "Fragments are typically neutron-rich and decay to reach stability."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QZ3",
+      "title": "radiation in daily life",
+      "levels": [
+        {
+          "id": "QZ3-E",
+          "title": "Easy",
+          "questions": [
+            {
+              "q": "Does radiation from outer space exist?",
+              "a": "Yes",
+              "options": [
+                "No",
+                "Yes"
+              ],
+              "explanation": "Radiation from outer space is called cosmic radiation or cosmic rays."
+            },
+            {
+              "q": "Does radiation only come from radioactive materials?",
+              "a": "No",
+              "options": [
+                "Yes",
+                "No"
+              ],
+              "explanation": "Radiation includes many forms of energy, not just from radioactive materials."
+            },
+            {
+              "q": "Are naturally occurring radioactive materials present in food?",
+              "a": "Yes",
+              "options": [
+                "No",
+                "Yes"
+              ],
+              "explanation": "Naturally occurring radioactive materials are present in food and drink."
+            },
+            {
+              "q": "Are X-rays a source of man-made radiation exposure?",
+              "a": "Yes",
+              "options": [
+                "No",
+                "Yes"
+              ],
+              "explanation": "X-rays are a common source of man-made radiation."
+            },
+            {
+              "q": "Has radioactivity always been part of Earth?",
+              "a": "Yes",
+              "options": [
+                "No",
+                "Yes"
+              ],
+              "explanation": "Natural radioactivity has existed on Earth throughout its history."
+            }
+          ]
+        },
+        {
+          "id": "QZ3-M",
+          "title": "Medium",
+          "questions": [
+            {
+              "q": "What does \"radiation\" refer to in simple terms?",
+              "a": "Release or movement of energy",
+              "options": [
+                "Release or movement of energy",
+                "Decay of atoms",
+                "Creation of isotopes",
+                "Nuclear chain reaction"
+              ],
+              "explanation": "Radiation refers to the release and movement of energy from a source."
+            },
+            {
+              "q": "What is the radiation we receive from outer space called?",
+              "a": "Cosmic rays",
+              "options": [
+                "Terrestrial",
+                "Alpha",
+                "Cosmic rays",
+                "Man-made"
+              ],
+              "explanation": "Radiation from space is called cosmic rays."
+            },
+            {
+              "q": "Which is an example of man-made radiation exposure?",
+              "a": "Cancer therapy",
+              "options": [
+                "Cosmic rays",
+                "Radioactive air",
+                "Cancer therapy",
+                "Body elements"
+              ],
+              "explanation": "Medical therapies like radiation for cancer are examples of man-made exposure."
+            },
+            {
+              "q": "Where are naturally occurring radioactive materials found in homes?",
+              "a": "Floors, walls, ceilings",
+              "options": [
+                "Only wiring",
+                "Only water pipes",
+                "Floors, walls, ceilings",
+                "Only outside"
+              ],
+              "explanation": "Some building materials contain naturally occurring radioactive elements."
+            },
+            {
+              "q": "What is one source of man-made exposure from power plants?",
+              "a": "Small material release",
+              "options": [
+                "Absorbed cosmic rays",
+                "Electrical current",
+                "Small material release",
+                "Steam release"
+              ],
+              "explanation": "Small releases of material from power plants can contribute to exposure."
+            },
+            {
+              "q": "Which parts of our bodies contain natural radioactive elements?",
+              "a": "Muscles, bones, tissue",
+              "options": [
+                "Hair",
+                "Blood",
+                "Muscles, bones, tissue",
+                "Brain"
+              ],
+              "explanation": "Our muscles, bones, and tissues contain trace natural radioactive isotopes."
+            },
+            {
+              "q": "Which US agency is cited for examples of radiation in daily life?",
+              "a": "CDC",
+              "options": [
+                "IAEA",
+                "DOE",
+                "FDA",
+                "CDC"
+              ],
+              "explanation": "The Centers for Disease Control (CDC) offers examples of radiation in daily life."
+            },
+            {
+              "q": "Which of these is an example of daily radiation exposure?",
+              "a": "Airport screening",
+              "options": [
+                "Wearing a watch",
+                "Listening to radio",
+                "Using a microwave",
+                "Airport screening"
+              ],
+              "explanation": "Airport screening is an example of man-made exposure during travel."
+            },
+            {
+              "q": "What international agency is mentioned regarding earth radioactivity?",
+              "a": "IAEA",
+              "options": [
+                "WNA",
+                "CDC",
+                "DOE",
+                "IAEA"
+              ],
+              "explanation": "The International Atomic Energy Agency (IAEA) provides information on natural radioactivity."
+            },
+            {
+              "q": "Are radioactive isotopes present in our bodies?",
+              "a": "Yes",
+              "options": [
+                "No",
+                "Yes"
+              ],
+              "explanation": "Our bodies contain trace amounts of naturally occurring radioactive isotopes."
+            }
+          ]
+        },
+        {
+          "id": "QZ3-H",
+          "title": "Hard",
+          "questions": [
+            {
+              "q": "Which is a source of man-made radiation exposure?",
+              "a": "Fallout from testing",
+              "options": [
+                "Cosmic rays",
+                "Earth crust materials",
+                "Air gases",
+                "Fallout from testing"
+              ],
+              "explanation": "Fallout from nuclear tests is a source of man-made exposure."
+            },
+            {
+              "q": "What is the distinction between radiation and radioactive materials?",
+              "a": "Radiation is energy movement",
+              "options": [
+                "Materials are man-made",
+                "Radiation is only light",
+                "Radiation is energy movement",
+                "Materials only in air"
+              ],
+              "explanation": "Radiation is the movement of energy; radioactive materials are sources."
+            },
+            {
+              "q": "Where are naturally occurring radioactive materials in the Earth?",
+              "a": "In the crust",
+              "options": [
+                "In satellites",
+                "In the crust",
+                "In X-ray machines",
+                "In spent fuel"
+              ],
+              "explanation": "Naturally occurring radioactive materials are found in the Earth's crust."
+            },
+            {
+              "q": "Man-made radiation is used for diagnostic X-rays and what medical purpose?",
+              "a": "Cancer therapy",
+              "options": [
+                "Vaccine development",
+                "Blood transfusions",
+                "Dental cleanings",
+                "Cancer therapy"
+              ],
+              "explanation": "Medical radiation is used in diagnostics and cancer therapy."
+            },
+            {
+              "q": "What are the two broad categories of radiation sources?",
+              "a": "Natural and man-made",
+              "options": [
+                "Alpha and Beta",
+                "Indoor and Outdoor",
+                "Natural and man-made",
+                "Low-level and High-level"
+              ],
+              "explanation": "Radiation sources are typically natural or man-made."
+            },
+            {
+              "q": "Where are radioactive gases mentioned as present?",
+              "a": "In the air we breathe",
+              "options": [
+                "Concrete",
+                "In the air we breathe",
+                "Electricity",
+                "Light"
+              ],
+              "explanation": "Trace radioactive gases are present in the air."
+            },
+            {
+              "q": "Which type of radiation is UV?",
+              "a": "Non-radioactive energy",
+              "options": [
+                "Radioactive gas",
+                "Cosmic ray",
+                "Non-radioactive energy",
+                "Fission byproduct"
+              ],
+              "explanation": "UV radiation is non-ionizing electromagnetic radiation."
+            },
+            {
+              "q": "What is a natural radiation source humans have always been exposed to?",
+              "a": "Radiation from the earth",
+              "options": [
+                "Medical procedures",
+                "Radiation from the earth",
+                "Power plant release",
+                "Airport screening"
+              ],
+              "explanation": "Earth-origin radiation is a persistent natural source."
+            },
+            {
+              "q": "What small amounts are carried by the air we breathe?",
+              "a": "Trace radioactive gases",
+              "options": [
+                "Liquid waste",
+                "Trace radioactive gases",
+                "Solid metals",
+                "High-level waste"
+              ],
+              "explanation": "The air contains trace radioactive gases."
+            },
+            {
+              "q": "Which location is NOT commonly listed for radioactive substances?",
+              "a": "Man-made satellites",
+              "options": [
+                "Floors of homes",
+                "Walls of workplaces",
+                "Ceilings of homes",
+                "Man-made satellites"
+              ],
+              "explanation": "Radioactive materials are commonly found in building materials, not satellites."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QZ4",
+      "title": "safe nuclear waste management",
+      "levels": [
+        {
+          "id": "QZ4-E",
+          "title": "Easy",
+          "questions": [
+            {
+              "q": "Is a naturally radioactive, no-longer-useful material classified as waste?",
+              "a": "Yes",
+              "options": [
+                "No",
+                "Yes"
+              ],
+              "explanation": "Radioactive waste is any material that is radioactive or contaminated and is no longer considered useful."
+            },
+            {
+              "q": "Does High-Level Waste make up the largest volume of radioactive waste?",
+              "a": "No",
+              "options": [
+                "Yes",
+                "No"
+              ],
+              "explanation": "High-Level Waste (HLW) is a small fraction of the total waste volume."
+            },
+            {
+              "q": "Do all radioactive materials eventually decay to stable forms?",
+              "a": "Yes",
+              "options": [
+                "No",
+                "Yes"
+              ],
+              "explanation": "Over time, radioactive materials decay into stable, non-radioactive isotopes."
+            },
+            {
+              "q": "Does Low-Level Waste require heavy shielding during transport?",
+              "a": "No",
+              "options": [
+                "Yes",
+                "No"
+              ],
+              "explanation": "Low-Level Waste (LLW) generally does not need heavy shielding for handling or transport."
+            },
+            {
+              "q": "Is spent nuclear fuel a source of High-Level Waste?",
+              "a": "Yes",
+              "options": [
+                "No",
+                "Yes"
+              ],
+              "explanation": "Spent nuclear fuel and some reprocessing residues are examples of HLW."
+            }
+          ]
+        },
+        {
+          "id": "QZ4-M",
+          "title": "Medium",
+          "questions": [
+            {
+              "q": "Which waste category is often disposed of with domestic refuse?",
+              "a": "VLLW",
+              "options": [
+                "LLW",
+                "ILW",
+                "HLW",
+                "VLLW"
+              ],
+              "explanation": "Very Low-Level Waste (VLLW) can be disposed with regular refuse in some jurisdictions."
+            },
+            {
+              "q": "Which radiation type is commonly associated with short-lived radionuclides?",
+              "a": "Gamma radiation",
+              "options": [
+                "Alpha",
+                "Beta",
+                "Gamma radiation",
+                "Neutron"
+              ],
+              "explanation": "Short-lived radionuclides often emit penetrating gamma radiation."
+            },
+            {
+              "q": "Approximately what share of activity does ILW account for?",
+              "a": "About 4%",
+              "options": [
+                "About 95%",
+                "About 1%",
+                "About 4%",
+                "About 7%"
+              ],
+              "explanation": "Intermediate-Level Waste accounts for a small percentage of total radioactivity compared with HLW."
+            },
+            {
+              "q": "Which waste category is suitable for near-surface disposal?",
+              "a": "LLW",
+              "options": [
+                "LLW",
+                "ILW",
+                "HLW",
+                "VLLW"
+              ],
+              "explanation": "Low-Level Waste is typically suitable for near-surface disposal."
+            },
+            {
+              "q": "What does LLW commonly include?",
+              "a": "Paper, tools, clothing",
+              "options": [
+                "Spent fuel",
+                "Resins/sludges",
+                "Demolished concrete",
+                "Paper, tools, clothing"
+              ],
+              "explanation": "LLW includes items such as paper, tools, clothing, and filters."
+            },
+            {
+              "q": "Why does HLW require cooling and shielding?",
+              "a": "It produces heat and intense radiation",
+              "options": [
+                "It is easy to handle",
+                "It produces heat and intense radiation",
+                "It decays quickly",
+                "It is only liquid"
+              ],
+              "explanation": "HLW emits heat and high radiation, requiring cooling and shielding."
+            },
+            {
+              "q": "Which waste is often solidified in concrete or bitumen?",
+              "a": "ILW",
+              "options": [
+                "LLW",
+                "ILW",
+                "HLW",
+                "VLLW"
+              ],
+              "explanation": "Intermediate-Level Waste is sometimes immobilized in concrete or bitumen for disposal."
+            },
+            {
+              "q": "Give one example of HLW",
+              "a": "Used fuel declared as waste",
+              "options": [
+                "Paper and cloth",
+                "Used fuel declared as waste",
+                "Household trash",
+                "Construction debris"
+              ],
+              "explanation": "Used nuclear fuel declared as waste is a primary example of HLW."
+            }
+          ]
+        },
+        {
+          "id": "QZ4-H",
+          "title": "Hard",
+          "questions": [
+            {
+              "q": "Which statement describes LLW volume vs activity?",
+              "a": "High volume, low activity",
+              "options": [
+                "Low volume, low activity",
+                "High volume, low activity",
+                "Low volume, high activity",
+                "High volume, high activity"
+              ],
+              "explanation": "LLW typically represents a large volume but a small fraction of total radioactivity."
+            },
+            {
+              "q": "What radiation types are easier to shield?",
+              "a": "Alpha and beta",
+              "options": [
+                "Gamma",
+                "Alpha and beta",
+                "Neutron",
+                "X-ray"
+              ],
+              "explanation": "Alpha and beta emissions are generally easier to shield than gamma or neutron radiation."
+            },
+            {
+              "q": "Why is HLW a major management focus?",
+              "a": "It has high radioactivity and heat output",
+              "options": [
+                "It is cheap to store",
+                "It has high radioactivity and heat output",
+                "It is harmless",
+                "It is only produced in small amounts"
+              ],
+              "explanation": "HLW is intensely radioactive and can produce heat, making safe isolation and cooling essential."
+            },
+            {
+              "q": "What is another source of HLW besides spent fuel?",
+              "a": "Reprocessing residues",
+              "options": [
+                "Household waste",
+                "Reprocessing residues",
+                "Office paper",
+                "Used batteries"
+              ],
+              "explanation": "Reprocessing of used fuel produces high-activity liquid and solid residues categorized as HLW."
+            },
+            {
+              "q": "Roughly what heat output threshold makes cooling necessary for waste?",
+              "a": "About 2 kW/m^3 or higher",
+              "options": [
+                "Less than 0.1 kW/m^3",
+                "About 2 kW/m^3 or higher",
+                "Any heat output",
+                "No threshold"
+              ],
+              "explanation": "When waste generates heat above a few kW per cubic meter, cooling considerations become important."
+            },
+            {
+              "q": "Which category accounts for the largest share of radioactivity?",
+              "a": "HLW",
+              "options": [
+                "LLW",
+                "ILW",
+                "HLW",
+                "VLLW"
+              ],
+              "explanation": "HLW accounts for the majority of radioactivity despite being a small volume."
+            },
+            {
+              "q": "What materials are common in VLLW from dismantling?",
+              "a": "Concrete and metal",
+              "options": [
+                "Spent fuel",
+                "Resins/cladding",
+                "Paper/filters",
+                "Concrete and metal"
+              ],
+              "explanation": "VLLW often consists of demolished concrete, plaster, bricks, and metal from decommissioning."
+            },
+            {
+              "q": "What determines whether spent fuel is classified as waste?",
+              "a": "National policy and regulation",
+              "options": [
+                "Half-life only",
+                "Total volume",
+                "National policy and regulation",
+                "Radiation type only"
+              ],
+              "explanation": "Classification depends on national policy and legal definitions."
+            },
+            {
+              "q": "One method to reduce LLW volume?",
+              "a": "Compacting or incinerating",
+              "options": [
+                "Leaving it as is",
+                "Compacting or incinerating",
+                "Diluting with water",
+                "Exporting it"
+              ],
+              "explanation": "Volume reduction techniques include compaction and controlled incineration."
+            },
+            {
+              "q": "Which organization provides commonly used waste category definitions?",
+              "a": "World Nuclear Association",
+              "options": [
+                "IAEA",
+                "World Nuclear Association",
+                "CDC",
+                "DOE"
+              ],
+              "explanation": "Organizations like the World Nuclear Association and IAEA provide guidance on categories and practices."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QZ5",
+      "title": "advanced reactor concepts",
+      "levels": [
+        {
+          "id": "QZ5-E",
+          "title": "Easy",
+          "questions": [
+            {
+              "q": "Does \"Advanced Nuclear\" refer to a new generation of reactors?",
+              "a": "Yes",
+              "options": [
+                "No",
+                "Yes"
+              ],
+              "explanation": "Advanced nuclear refers to next-generation reactor designs with improved features."
+            },
+            {
+              "q": "Are Small Modular Reactors (SMRs) considered advanced reactors?",
+              "a": "Yes",
+              "options": [
+                "No",
+                "Yes"
+              ],
+              "explanation": "SMRs are a compact, factory-built approach that is often classed as advanced."
+            },
+            {
+              "q": "Do advanced reactors aim to improve safety and efficiency?",
+              "a": "Yes",
+              "options": [
+                "No",
+                "Yes"
+              ],
+              "explanation": "Advanced reactors aim to improve safety, efficiency, and cost-effectiveness."
+            },
+            {
+              "q": "Does development of advanced reactors often depend on policy support?",
+              "a": "Yes",
+              "options": [
+                "No",
+                "Yes"
+              ],
+              "explanation": "Public policy and funding accelerate development and deployment."
+            },
+            {
+              "q": "Can non-water-cooled designs be considered advanced reactors?",
+              "a": "Yes",
+              "options": [
+                "No",
+                "Yes"
+              ],
+              "explanation": "Non-water-cooled designs include molten salt and gas-cooled reactors."
+            }
+          ]
+        },
+        {
+          "id": "QZ5-M",
+          "title": "Medium",
+          "questions": [
+            {
+              "q": "Which is an example of a non-water-cooled advanced reactor?",
+              "a": "Molten salt reactors",
+              "options": [
+                "Light-water",
+                "Boiling water",
+                "Molten salt reactors",
+                "Pressurized water"
+              ],
+              "explanation": "Molten salt reactors use liquid fuel or coolant and are non-water-cooled."
+            },
+            {
+              "q": "What is the SMR electrical output threshold (IAEA)?",
+              "a": "About 300 MW or less",
+              "options": [
+                "About 100 MW or less",
+                "About 300 MW or less",
+                "About 500 MW or less",
+                "About 1000 MW or less"
+              ],
+              "explanation": "SMRs are often defined as having an electrical output around 300 MW or less."
+            },
+            {
+              "q": "One benefit supporters cite for SMRs?",
+              "a": "Mass factory production",
+              "options": [
+                "Higher financing risks",
+                "Custom on-site builds",
+                "Mass factory production",
+                "Uses only traditional fuel"
+              ],
+              "explanation": "SMRs may benefit from factory production and modular assembly."
+            },
+            {
+              "q": "What term describes reactors designed for improved safety, efficiency, and cost?",
+              "a": "Advanced nuclear",
+              "options": [
+                "Legacy reactors",
+                "Advanced nuclear",
+                "Coal-fired",
+                "Gas turbines"
+              ],
+              "explanation": "These are broadly referred to as advanced nuclear."
+            },
+            {
+              "q": "Which concept is listed as a type of advanced reactor?",
+              "a": "Lead-cooled fast reactors",
+              "options": [
+                "Graphite moderated",
+                "Heavy water",
+                "Lead-cooled fast reactors",
+                "Open-cycle gas"
+              ],
+              "explanation": "Lead-cooled fast reactors are one example of non-water fast designs."
+            },
+            {
+              "q": "Which nation is cited as having a growing advanced nuclear sector?",
+              "a": "United States",
+              "options": [
+                "China",
+                "Russia",
+                "France",
+                "United States"
+              ],
+              "explanation": "Several countries, including the United States, have active advanced reactor programs."
+            },
+            {
+              "q": "Which improved water-cooled system is mentioned?",
+              "a": "Supercritical water reactors",
+              "options": [
+                "Heavy water",
+                "Graphite moderated",
+                "Supercritical water reactors",
+                "Breeder reactors"
+              ],
+              "explanation": "Supercritical water reactors are an example of improved water-cooled designs."
+            },
+            {
+              "q": "How many ventures were identified in a 2015 analysis?",
+              "a": "Nearly 50",
+              "options": [
+                "Fewer than 10",
+                "Nearly 50",
+                "Over 100",
+                "Exactly 300"
+              ],
+              "explanation": "A 2015 study reported nearly 50 ventures focused on advanced reactors."
+            }
+          ]
+        },
+        {
+          "id": "QZ5-H",
+          "title": "Hard",
+          "questions": [
+            {
+              "q": "What three core improvements do advanced reactors aim for?",
+              "a": "Safety, efficiency, and cost",
+              "options": [
+                "Speed, power, size",
+                "Safety, efficiency, and cost",
+                "Complexity, cost, delay",
+                "Reprocessing, waste, regulation"
+              ],
+              "explanation": "Advanced reactors prioritize safety, efficiency, and reduced costs."
+            },
+            {
+              "q": "Which improved water-cooled design can be small and modular?",
+              "a": "SMR light-water reactors",
+              "options": [
+                "Large traditional PWRs",
+                "SMR light-water reactors",
+                "Heavy water reactors",
+                "Old BWRs"
+              ],
+              "explanation": "SMR light-water designs adapt proven technology to modular construction."
+            },
+            {
+              "q": "Name two non-water-cooled fast reactor types.",
+              "a": "Sodium or lead fast reactors",
+              "options": [
+                "Graphite moderated",
+                "Sodium or lead fast reactors",
+                "Molten salt or supercritical",
+                "Fusion reactors"
+              ],
+              "explanation": "Sodium and lead fast reactors are examples of non-water fast designs."
+            },
+            {
+              "q": "What financial advantage is often claimed for SMRs?",
+              "a": "Lower financing risks",
+              "options": [
+                "Higher financing costs",
+                "Lower financing risks",
+                "No government backing",
+                "Higher capital cost"
+              ],
+              "explanation": "SMRs may lower financing risk through modular, repeatable manufacturing."
+            },
+            {
+              "q": "What kinds of concepts does advanced nuclear cover?",
+              "a": "Water, non-water, and fusion concepts",
+              "options": [
+                "Only non-water",
+                "Only light-water",
+                "Water, non-water, and fusion concepts",
+                "Only large reactors"
+              ],
+              "explanation": "The field includes improved water-cooled, non-water-cooled, and advanced fusion research."
+            },
+            {
+              "q": "What was the estimated private investment supporting ventures (2015)?",
+              "a": "Over a billion dollars",
+              "options": [
+                "Only government grants",
+                "Under a million dollars",
+                "Over a billion dollars",
+                "Under 100 million dollars"
+              ],
+              "explanation": "Private investment supporting the sector exceeded a billion dollars in some analyses."
+            },
+            {
+              "q": "What factor is crucial for continued progress?",
+              "a": "Federal policy and support",
+              "options": [
+                "Increasing fossil prices",
+                "Independent private funding",
+                "Federal policy and support",
+                "Decommissioning old plants"
+              ],
+              "explanation": "Policy support and funding are important for development and deployment."
+            },
+            {
+              "q": "Which organization provided the 2015 industry analysis?",
+              "a": "Third Way",
+              "options": [
+                "IAEA",
+                "DOE",
+                "Third Way",
+                "Science Notes"
+              ],
+              "explanation": "Third Way published an analysis identifying many ventures."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "books": [
+    {
+      "id": "B1",
+      "title": "Introduction to Half-Life",
+      "content": "Radioactive materials decay over time, reducing their radioactivity. The time it takes for **half** of the atoms in a radioactive substance to decay is called its **half-life**. Half-lives can range from fractions of a second to billions of years. This process is predictable and crucial for dating artifacts and safely managing nuclear waste. The amount of material remaining after $n$ half-lives can be calculated using the formula: $N(t) = N_0(1/2)^{n}$. This decay process is the key to understanding why high-level nuclear waste eventually becomes less radioactive than the original uranium ore, albeit over a very long time. The half-life concept is vital in nuclear physics, determining the practical lifespan of isotopes used in medicine (which require short half-lives for patient safety) and calculating the necessary storage time for long-lived waste. The predictability of this decay is what allows scientists to reliably calculate long-term safety requirements for nuclear waste repositories, assuring public safety over geological timescales. The rate is fundamentally a property of the isotope and is unaffected by external factors like temperature, pressure, or chemical state. This is a robust and immutable law of physics.",
+      "reference": "Argonne National Laboratory, Oak Ridge Associated Universities."
+    },
+    {
+      "id": "B2",
+      "title": "Radiation Basics",
+      "content": "Overview of ionizing radiation: types (alpha, beta, gamma), units (Bq, Gy, Sv), and basic protection principles (time, distance, shielding). Useful for understanding exposures and safety measures.",
+      "reference": "IAEA Fundamentals"
+    },
+    {
+      "id": "B3",
+      "title": "Nuclear Fuel Cycle",
+      "content": "A concise guide to mining, enrichment, fuel fabrication, reactor operation, and waste management. Emphasis on where risks arise and how engineering controls reduce them.",
+      "reference": "OECD / NEA"
+    },
+    {
+      "id": "B4",
+      "title": "Repository Engineering",
+      "content": "Engineering barriers: canisters, buffer materials, and host-rock considerations. Explains design choices used in modern deep geological repositories.",
+      "reference": "SKB, Posiva"
+    },
+    {
+      "id": "B5",
+      "title": "Radiation in Medicine",
+      "content": "How medical imaging and therapy use radiation safely: dose optimization, ALARA, and clinical trade-offs between diagnostic value and exposure.",
+      "reference": "WHO / ICRP"
+    },
+    {
+      "id": "B6",
+      "title": "Half-life (t½) — Concept and Applications",
+      "content": "Half-life (t½) is a key concept in physics, chemistry, and biology, describing the time it takes for half of a substance to change or be removed. It applies to processes like radioactive decay, chemical reactions, and drug elimination, and can also be extended metaphorically to areas such as advertising effectiveness, electromagnetic radiation, or the decrease of atmospheric pressure with altitude.",
+      "reference": "Science Notes, Chemistry for the Biosciences: The Essential Concepts., Estimating Half-Lives for Pesticide Dissipation from Plants”. Environmental Science & Technology., Modern Physics. Fort Worth: Harcourt Brace Jovanovich., Nuclear and Radiochemistry: Introduction. Vol. 1. Walter de Gruyter."
+    },
+    {
+      "id": "B7",
+      "title": "Common Misconceptions about Half-Life",
+      "content": "People have a few common misconceptions regarding half-life:\n\n• Exact Halving: One common misconception is that exactly half of the substance decays after one half-life. The process is probabilistic, meaning the actual amount varies slightly but averages out over many measurements.\n\n• Complete Decay: Some believe that after multiple half-lives, the substance completely disappears. While the amount becomes very small, it never truly reaches zero.\n\n• Constant Rate Misinterpretation: The half-life often gets confused with a constant decay rate. While the decay rate decreases as the amount of the substance decreases, the half-life remains constant for a given substance.",
+      "reference": "Science Notes, Chemistry for the Biosciences: The Essential Concepts., Estimating Half-Lives for Pesticide Dissipation from Plants”. Environmental Science & Technology., Modern Physics. Fort Worth: Harcourt Brace Jovanovich., Nuclear and Radiochemistry: Introduction. Vol. 1. Walter de Gruyter."
+    },
+    {
+      "id": "B8",
+      "title": "Exponential Decay and Half-Life",
+      "content": "Half-life relates to exponential decay, a process where the quantity of a substance decreases at a rate proportional to its current value. This is described by:\n\nN(t) = N0 e^{-λ t}\n\nwhere N(t) is the quantity at time t, N0 is the initial quantity, λ is the decay constant, and e is the base of the natural logarithm. The half-life t½ is the time it takes for N(t) to reduce to half of N0. The decay constant λ and the half-life relate by: t½ = ln(2) / λ.",
+      "reference": "Science Notes, Chemistry for the Biosciences: The Essential Concepts., Estimating Half-Lives for Pesticide Dissipation from Plants”. Environmental Science & Technology., Modern Physics. Fort Worth: Harcourt Brace Jovanovich., Nuclear and Radiochemistry: Introduction. Vol. 1. Walter de Gruyter."
+    },
+    {
+      "id": "B9",
+      "title": "Radioactive Decay — Formulas and Randomness",
+      "content": "Radioactive decay is a random process at the level of single atoms, governed by the half-life. The decay expression often used is:\n\nN(t) = N0 (1/2)^{t/t½}\n\nwhere N(t) is the quantity at time t, N0 is the initial quantity, and t½ is the half-life. The randomness means decay is probabilistic for individual atoms but predictable in aggregate.",
+      "reference": "Science Notes, Chemistry for the Biosciences: The Essential Concepts., Estimating Half-Lives for Pesticide Dissipation from Plants”. Environmental Science & Technology., Modern Physics. Fort Worth: Harcourt Brace Jovanovich., Nuclear and Radiochemistry: Introduction. Vol. 1. Walter de Gruyter."
+    },
+    {
+      "id": "B10",
+      "title": "Biological Half-Life — Pharmacology and Toxicology",
+      "content": "In pharmacology and toxicology, the biological half-life is the time required for a substance, such as a drug, to decrease to half its initial concentration in the body. Unlike radioactive decay, biological half-life is influenced by metabolism, excretion, interactions with other substances, and individual factors such as age, sex, organ function, and overall health, making it less predictable and requiring empirical measurement.",
+      "reference": "Science Notes, Chemistry for the Biosciences: The Essential Concepts., Estimating Half-Lives for Pesticide Dissipation from Plants”. Environmental Science & Technology., Modern Physics. Fort Worth: Harcourt Brace Jovanovich., Nuclear and Radiochemistry: Introduction. Vol. 1. Walter de Gruyter."
+    },
+    {
+      "id": "B11",
+      "title": "Half-Life in Chemical Kinetics",
+      "content": "In chemistry, half-life describes the kinetics of reactions and depends on reaction order. For zero-order reactions, the rate is constant and the half-life is given by: t½ = [A]0 / (2 k), where [A]0 is the initial concentration and k is the rate constant. Other reaction orders have different half-life relationships.",
+      "reference": "Science Notes, Chemistry for the Biosciences: The Essential Concepts., Estimating Half-Lives for Pesticide Dissipation from Plants”. Environmental Science & Technology., Modern Physics. Fort Worth: Harcourt Brace Jovanovich., Nuclear and Radiochemistry: Introduction. Vol. 1. Walter de Gruyter."
+    },
+    {
+      "id": "B12",
+      "title": "How Does Nuclear Fission Work?",
+      "content": "In theory, any atomic nucleus can split apart if it receives enough excitation energy. Fission occurs when the nucleus reaches or exceeds a threshold energy (E_crit). For heavy elements (Z>90) that threshold is typically around 4–6 MeV for even-A nuclei. Thermal neutrons can supply roughly 5 MeV due to binding energy, sufficient to induce fission in many heavy nuclei.",
+      "reference": "Science Notes, Nuclear Chemistry., Nuclear Fission Dynamics: Past, Present, Needs, and Future., Neutrons, Nuclei, and Matter. Mineola, NY: Dover Publications., Spontaneous Emission of Neutrons from Uranium., International Atomic Energy Agency., Stanford University."
+    },
+    {
+      "id": "B13",
+      "title": "Key Facts about Fission and Reactors",
+      "content": "• Spontaneous fission occurs rarely; neutron-induced fission is controllable and relevant to reactors.\n• Certain isotopes (U-235, U-233, Pu-239) support self-sustaining chain reactions.\n• Fission typically releases two or more neutrons, which can trigger further fissions.\n• A single U-235 fission releases ~210 MeV.\n• To produce 1 W, about 3.1×10^10 fissions per second are required.\n• 1 g of fissile material contains ~2.5×10^21 atoms; full fission could produce ~1 MWd of heat.\n• Historically nuclear energy has contributed around 10% of global electricity (figures vary by year).",
+      "reference": "Science Notes, Nuclear Chemistry., Nuclear Fission Dynamics: Past, Present, Needs, and Future., Neutrons, Nuclei, and Matter. Mineola, NY: Dover Publications., Spontaneous Emission of Neutrons from Uranium., International Atomic Energy Agency., Stanford University."
+    },
+    {
+      "id": "B14",
+      "title": "Natural and Man-Made Radiation — IAEA Overview",
+      "content": "The International Atomic Energy Agency notes that radioactivity is part of the Earth and has always existed. Naturally occurring radioactive materials are present in the crust, building materials, food, and within our bodies. Cosmic radiation also contributes. Man-made sources include medical X-rays, radiation therapy, fallout from nuclear testing, and small releases from industrial activities.",
+      "reference": "IAEA — Radiation in Everyday Life"
+    },
+    {
+      "id": "B15",
+      "title": "Radiation in Daily Life — Examples",
+      "content": "Radiation in daily life comes from natural sources (cosmic rays, terrestrial isotopes, radon) and man-made sources (medical imaging, airport scanners). Examples include exposure during air travel, building materials, and trace radionuclides in food. Radiation encompasses many forms of energy transfer and is a constant part of the environment.",
+      "reference": "CDC / StudiousGuy summary"
+    },
+    {
+      "id": "B16",
+      "title": "What is Radioactive Waste?",
+      "content": "Radioactive waste refers to materials that are radioactive or contaminated and no longer useful. Classification depends on national policy; radionuclides have half-lives and a mix of emissions. Long-lived radionuclides require isolation over long periods; short-lived often emit penetrating gamma radiation and need shielding.",
+      "reference": "World Nuclear Association"
+    },
+    {
+      "id": "B17",
+      "title": "Kinds of Radioactive Waste",
+      "content": "Common waste categories include:\n• Low-level waste (LLW): low radioactivity, near-surface disposal; ~90% of volume but ~1% of activity.\n• Intermediate-level waste (ILW): higher radioactivity, may require shielding; minimal heat generation.\n• High-level waste (HLW): highly radioactive and thermally hot, requires cooling and heavy shielding; small volume but large fraction of radioactivity.\n• Very low-level and exempt wastes: materials with minimal radioactivity often disposed with ordinary refuse.",
+      "reference": "World Nuclear Association"
+    },
+    {
+      "id": "B18",
+      "title": "Advanced Nuclear — Technologies and Trends",
+      "content": "Advanced nuclear refers to next-generation reactor technologies (molten salt, pebble bed, lead-cooled fast reactors, SMRs) aiming to improve safety, efficiency and cost. The sector has attracted private investment and public policy interest; technologies vary from improved water-cooled designs to non-water fast reactors and prototype fusion concepts.",
+      "reference": "Third Way., U.S Department of Energy."
+    }
+  ]
+}
