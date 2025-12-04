@@ -880,7 +880,7 @@ const TapToStartScreen = ({ onFinish }: { onFinish: () => void }) => {
 };
 
 // --- AUTH SCREEN (Login / Signup)
-const DEFAULT_BACKEND_URL = 'http://192.168.254.100:4000'; // Local LAN address
+const DEFAULT_BACKEND_URL = 'https://crackthemythapp.onrender.com'; // Render backend URL
 
 const AuthScreen = ({ onLogin, backendUrl, setBackendUrl }: { onLogin: (token: string, user: any) => void; backendUrl: string; setBackendUrl: (u: string) => void }) => {
   const [mode, setMode] = useState<'login' | 'signup' | 'forgot'>('login');
