@@ -1,7 +1,6 @@
 {
   "cli": {
-    "version": ">= 16.26.0",
-    "appVersionSource": "remote"
+    "version": ">= 0.0.0"
   },
   "build": {
     "development": {
@@ -10,15 +9,11 @@
     },
     "preview": {
       "distribution": "internal",
-      // ADD THE PLATFORM SPECIFIC CONFIGURATION HERE
       "android": {
         "buildType": "apk"
       }
     },
-    "production": {
-      "autoIncrement": true
-      // LEAVE "production" AS DEFAULT (AAB) FOR THE PLAY STORE
-    }
+    "production": {}
   },
   "submit": {
     "production": {}

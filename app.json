@@ -3,6 +3,7 @@
     "name": "CrackTheMythApp",
     "slug": "CrackTheMythApp",
     "version": "1.0.0",
+    "runtimeVersion": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
